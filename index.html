@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Diários Escolares - SEMED</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 min-h-screen text-slate-800 p-4 sm:p-6 lg:p-8">
+
+  <div class="max-w-7xl mx-auto space-y-6">
+
+    <!-- CABEÇALHO SEMED -->
+    <header class="bg-white rounded-2xl p-6 border border-slate-200/80 shadow-sm flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+      <div class="flex items-center gap-4">
+        <div class="bg-emerald-100 p-3.5 rounded-xl text-emerald-600 flex items-center justify-center">
+          <i data-lucide="building-2" class="w-8 h-8"></i>
+        </div>
+        <div>
+          <span class="bg-emerald-50 text-emerald-700 font-bold text-xs px-2.5 py-0.5 rounded-full uppercase border border-emerald-200/60">
+            SEMED - Secretaria Municipal de Educação
+          </span>
+          <h1 class="text-2xl sm:text-3xl font-bold text-slate-900 mt-1">Portal de Diários Escolares</h1>
+          <p class="text-sm text-slate-500 font-medium">Selecione uma unidade escolar para acessar os diários de classe</p>
+        </div>
+      </div>
+
+      <div class="bg-slate-100 px-4 py-2.5 rounded-xl border border-slate-200 flex items-center gap-3">
+        <i data-lucide="school" class="w-5 h-5 text-slate-500"></i>
+        <div>
+          <div class="text-xs text-slate-500 font-medium">Total de Escolas</div>
+          <div id="txt-total-escolas" class="text-lg font-bold text-slate-900">...</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- PESQUISA E FILTROS -->
+    <section class="bg-white rounded-2xl p-4 border border-slate-200/80 shadow-sm space-y-3">
+      <div class="flex flex-col md:flex-row gap-3">
+        <div class="relative flex-1">
+          <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+          <input 
+            type="text" 
+            id="input-busca" 
+            placeholder="Buscar por nome da escola ou código INEP..." 
+            oninput="filtrarEscolas()"
+            class="w-full pl-11 pr-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 transition"
+          >
+        </div>
+
+        <div class="flex gap-2">
+          <button onclick="filtrarZona('todas')" id="btn-zona-todas" class="px-4 py-2.5 rounded-xl text-xs font-bold bg-slate-900 text-white transition">Todas</button>
+          <button onclick="filtrarZona('URBANA')" id="btn-zona-urbana" class="px-4 py-2.5 rounded-xl text-xs font-bold bg-slate-100 text-slate-600 hover:bg-slate-200 transition">Urbana</button>
+          <button onclick="filtrarZona('RURAL')" id="btn-zona-rural" class="px-4 py-2.5 rounded-xl text-xs font-bold bg-slate-100 text-slate-600 hover:bg-slate-200 transition">Rural</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- LISTA DAS ESCOLAS -->
+    <main id="grid-escolas" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="col-span-full py-12 text-center text-slate-400">Carregando escolas...</div>
+    </main>
+
+  </div>
+
+  <script>
+    let TODAS_ESCOLAS = [];
+    let zonaFiltro = "todas";
+
+    async function carregarDados() {
+      try {
+        const resposta = await fetch('escolas.json');
+        TODAS_ESCOLAS = await resposta.json();
+        renderizarEscolas(TODAS_ESCOLAS);
+      } catch (e) {
+        document.getElementById("grid-escolas").innerHTML = `
+          <div class="col-span-full py-12 text-center text-red-500">Erro ao carregar o arquivo escolas.json. Certifique-se de que ele está no mesmo repositório.</div>
+        `;
+      }
+    }
+
+    function renderizarEscolas(lista) {
+      const grid = document.getElementById("grid-escolas");
+      document.getElementById("txt-total-escolas").innerText = `${lista.length} Unidades`;
+
+      if (lista.length === 0) {
+        grid.innerHTML = `
+          <div class="col-span-full py-12 text-center bg-white rounded-2xl border border-slate-200">
+            <i data-lucide="search-x" class="w-10 h-10 text-slate-300 mx-auto mb-2"></i>
+            <p class="text-slate-500 font-medium">Nenhuma escola encontrada com os termos buscados.</p>
+          </div>
+        `;
+        lucide.createIcons();
+        return;
+      }
+
+      grid.innerHTML = lista.map(escola => `
+        <div class="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-sm hover:shadow-md hover:border-emerald-300 transition duration-200 flex flex-col justify-between space-y-4 group">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between gap-2">
+              <span class="bg-blue-50 text-blue-600 font-semibold text-[10px] px-2.5 py-0.5 rounded-full uppercase border border-blue-200/60">
+                Zona ${escola.zona}
+              </span>
+              <span class="text-xs font-medium text-slate-400"># INEP: ${escola.inep}</span>
+            </div>
+
+            <div>
+              <h2 class="font-bold text-slate-900 text-base group-hover:text-emerald-600 transition leading-snug">
+                ${escola.nome}
+              </h2>
+              <p class="text-xs text-slate-500 font-medium mt-1 flex items-center gap-1">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-400"></i> ${escola.regiao} • ${escola.localidade}
+              </p>
+            </div>
+          </div>
+
+          <div class="pt-3 border-t border-slate-100">
+            <a href="escola.html?id=${escola.id}" class="w-full bg-slate-900 hover:bg-emerald-600 text-white font-medium py-2.5 px-4 rounded-xl text-xs transition flex items-center justify-center gap-2 shadow-sm">
+              <span>Acessar Diários</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+      `).join("");
+
+      lucide.createIcons();
+    }
+
+    function filtrarEscolas() {
+      const termo = document.getElementById("input-busca").value.toLowerCase();
+      const filtradas = TODAS_ESCOLAS.filter(e => {
+        const atendeTermo = e.nome.toLowerCase().includes(termo) || e.inep.includes(termo);
+        const atendeZona = zonaFiltro === "todas" || e.zona.toUpperCase() === zonaFiltro;
+        return atendeTermo && atendeZona;
+      });
+      renderizarEscolas(filtradas);
+    }
+
+    function filtrarZona(zona) {
+      zonaFiltro = zona;
+      ['todas', 'URBANA', 'RURAL'].forEach(z => {
+        const btn = document.getElementById(`btn-zona-${z.toLowerCase()}`);
+        if (z === zona || (z === 'todas' && zona === 'todas')) {
+          btn.className = "px-4 py-2.5 rounded-xl text-xs font-bold bg-slate-900 text-white transition";
+        } else {
+          btn.className = "px-4 py-2.5 rounded-xl text-xs font-bold bg-slate-100 text-slate-600 hover:bg-slate-200 transition";
+        }
+      });
+      filtrarEscolas();
+    }
+
+    document.addEventListener("DOMContentLoaded", carregarDados);
+  </script>
+</body>
+</html>

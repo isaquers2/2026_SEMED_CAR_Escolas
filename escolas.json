@@ -1,0 +1,950 @@
+[
+  {
+    "id": "ruibarbosa",
+    "nome": "ESCOLA OPERÁRIA RUI BARBOSA",
+    "inep": "21174954",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CENTRO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": "https://docs.google.com/spreadsheets/d/1TPH2yE0C3dRyrlhYto-0PeNkIkWRHjkCs2tsvI6jIis/edit?usp=drive_link"
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "1º Ano A", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1SA2BvoQ9L1qi1Uw7Qxa5Gbj17IAAfwyTIlovDsdnLs0/edit?usp=drive_link" },
+          { "nome": "1º Ano B", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1wR9xneqnx1-JB6sAZQThwH3LP1sw2XCfKdyx4VbRSZw/edit?usp=drive_link" },
+          { "nome": "2º Ano A", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1rL2m3iouUb6gVzU5Uq2JzeVAhKYVjIi3WvjDGiL5Zx8/edit?usp=drive_link" },
+          { "nome": "2º Ano B", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1WjN5Hkaxh44fJt4ytXAwY_5ahZn-2Vuv4LXVkMjb0s4/edit?usp=drive_link" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "3º Ano A", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1fCM1fEiWoyJppAM-6zXCS8qJ4pvQQLkTZetHvySv2XI/edit?usp=drive_link" },
+          { "nome": "4º Ano A", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1lPgbHdvGiFHZczQFILX-fDMFegHuoZb5MbmQZqyrZu0/edit?usp=drive_link" },
+          { "nome": "5º Ano A", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1IORGFQ83Hewx4O9IZ07BHTNJZIEGYSCVqgljJ40-B9o/edit?usp=drive_link" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "freiadelmo",
+    "nome": "JARDIM DE INFÂNCIA FREI ADELMO",
+    "inep": "21211396",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CENTRO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "Maternal I A", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Maternal II A", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I A - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I A - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "Maternal I B", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Maternal II B", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Maternal II C", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I B - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I B - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "luizjuca",
+    "nome": "JARDIM DE INFÂNCIA LUIZ JUCÁ",
+    "inep": "21209464",
+    "zona": "RURAL",
+    "regiao": "ITAPECURU",
+    "localidade": "SÃO JOÃO DA CACHOEIRA",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "Pré-Escola I - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "Maternal II", "etapa": "Educação Infantil", "link": "" }
+         ]
+      }
+    ]
+  },
+ {
+    "id": "negomariano",
+    "nome": "JARDIM DE INFÂNCIA NEGO MARIANO",
+    "inep": "21211418",
+    "zona": "RURAL",
+    "regiao": "MARAJÁ",
+    "localidade": "CANTO GRANDE",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "Maternal I", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Maternal II", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II", "etapa": "Educação Infantil", "link": "" }
+         ]
+      }
+    ]
+  },
+{
+    "id": "pequenoprincipe",
+    "nome": "JARDIM DE INFÂNCIA PEQUENO PRINCÍPE",
+    "inep": "21271488",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CENTRO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "Pré-Escola I - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II A - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II B - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II A - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II B - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }          
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "Maternal II A", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Maternal II B", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I B - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I B - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "tiaines",
+    "nome": "JARDIM DE INFÂNCIA TIA INÊS",
+    "inep": "21211426",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CENTRO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "Maternal I A", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Maternal II A", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I A - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II A - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II B - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I A - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II A - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II B - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "Maternal I B", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Maternal II B", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Maternal II C", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I B - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I C - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I B - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I C - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "tiamariarocha",
+    "nome": "JARDIM DE INFÂNCIA TIA MARIA ROCHA",
+    "inep": "21268428",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CENTRO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "Pré-Escola I - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II A - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II A - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }          
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "Maternal II", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II B - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II B - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }          
+        ]
+      }
+    ]
+  },
+{
+    "id": "vovoluzia",
+    "nome": "JARDIM DE INFÂNCIA VOVÓ LUZIA",
+    "inep": "21175357",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CENTRO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "Pré-Escola I A - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II A - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II B - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I A - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II A - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II B - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "Pré-Escola I B - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II C - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II D - Prof. Regente", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola I B - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II C - Prof. Complementar", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II D - Prof. Complementar", "etapa": "Educação Infantil", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "novacarolina",
+    "nome": "UNIDADE ESCOLAR NOVA CAROLINA",
+    "inep": "21219400",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "NOVA CAROLINA",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "6º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "6º Ano B", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano B", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano B", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano B", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano C", "etapa": "Anos Finais", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "6º Ano C", "etapa": "Anos Finais", "link": "" },
+          { "nome": "6º Ano D", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano C", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano D", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano C", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano D", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano D", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano E", "etapa": "Anos Finais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "dirceuarraes",
+    "nome": "UNIDADE ESCOLAR DIRCEU ARRAES",
+    "inep": "21175489",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "BREJINHO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "6º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano B", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano B", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano C", "etapa": "Anos Finais", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "1º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "1º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano B", "etapa": "Anos Iniciais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "josequeiroz",
+    "nome": "UNIDADE ESCOLAR JOSÉ QUEIROZ",
+    "inep": "21175519",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CENTRO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "1º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "7º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano B", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano B", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano A", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano B", "etapa": "Anos Finais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "josemoreirapaula",
+    "nome": "UNIDADE ESCOLAR JOSÉ MOREIRA DE PAULA",
+    "inep": "21175500",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "COHAB",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "1º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano A", "etapa": "Anos Iniciais", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "1º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano B", "etapa": "Anos Iniciais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "profedsoncardoso",
+    "nome": "UNIDADE ESCOLAR PROFESSOR EDSON CARDOSO",
+    "inep": "21175497",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CAMPO DO VITURINO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "1º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano A", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano A", "etapa": "Anos Iniciais", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "1º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano B", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano B", "etapa": "Anos Iniciais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "adalbertoribeiro",
+    "nome": "UNIDADE ESCOLAR ADALBERTO RIBEIRO",
+    "inep": "21175462",
+    "zona": "RURAL",
+    "regiao": "ITAPECURU",
+    "localidade": "TABOQUINHA",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "Pré-Escola I", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "1º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano", "etapa": "Anos Iniciais", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano", "etapa": "Anos Finais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "joaoalvesbezerra",
+    "nome": "UNIDADE ESCOLAR JOÃO ALVES BEZERRA",
+    "inep": "21174695",
+    "zona": "RURAL",
+    "regiao": "LIMOEIRO",
+    "localidade": "SANTA RITA DOS BEZERRAS",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "Pré-Escola I", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "1º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano", "etapa": "Anos Iniciais", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano", "etapa": "Anos Finais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "norbertojosesilva",
+    "nome": "UNIDADE ESCOLAR NORBERTO JOSÉ DA SILVA",
+    "inep": "21175438",
+    "zona": "RURAL",
+    "regiao": "FARINHA",
+    "localidade": "BURITIRANA",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "Pré-Escola I", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "1º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano", "etapa": "Anos Iniciais", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano", "etapa": "Anos Finais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "antoniocarvalhofialho",
+    "nome": "UNIDADE ESCOLAR ANTONIO CARVALHO FIALHO",
+    "inep": "21175470",
+    "zona": "RURAL",
+    "regiao": "MARAJÁ",
+    "localidade": "CANTO GRANDE",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "1º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano", "etapa": "Anos Iniciais", "link": "" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano", "etapa": "Anos Finais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "ciroarnaldosousa",
+    "nome": "UNIDADE ESCOLAR CIRO ARNALDO DE SOUSA",
+    "inep": "21174385",
+    "zona": "RURAL",
+    "regiao": "JENIPAPO",
+    "localidade": "VÃO DO BICO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "Pré-Escola I", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "Pré-Escola II", "etapa": "Educação Infantil", "link": "" },
+          { "nome": "1º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "2º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "3º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "4º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "5º Ano", "etapa": "Anos Iniciais", "link": "" },
+          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano", "etapa": "Anos Finais", "link": "" }   
+        ]
+      }
+    ]
+  },
+{
+    "id": "coelhonetoeja",
+    "nome": "UNIDADE ESCOLAR COELHO NETO -  EJA NOTURNO",
+    "inep": "21175527",
+    "zona": "RURAL",
+    "regiao": "CANA BRAVA",
+    "localidade": "HELENÓPOLIS",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "noturno",
+        "nome": "Turno Noturno (Noite)",
+        "icone": "moon",
+        "corIcone": "text-indigo-500",
+        "turmas": [
+          { "nome": "1ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "2ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "3ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "4ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" }   
+        ]
+      }
+    ]
+  },
+{
+    "id": "dirceuarraeseja",
+    "nome": "UNIDADE ESCOLAR DIRCEU ARRAES - EJA NOTURNO",
+    "inep": "21175489",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "BREJINHO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "noturno",
+        "nome": "Turno Noturno (Noite)",
+        "icone": "moon",
+        "corIcone": "text-indigo-500",
+        "turmas": [
+          { "nome": "1ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "2ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "3ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "4ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" }   
+        ]
+      }
+    ]
+  },
+{
+    "id": "engjoaobentoeja",
+    "nome": "UNIDADE ESCOLAR ENGENHEIRO JOÃO BENTO - EJA NOTURNO",
+    "inep": "21175292",
+    "zona": "RURAL",
+    "regiao": "ITAPECURU",
+    "localidade": "SÃO JOÃO DA CACHOEIRA",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "noturno",
+        "nome": "Turno Noturno (Noite)",
+        "icone": "moon",
+        "corIcone": "text-indigo-500",
+        "turmas": [
+          { "nome": "1ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "2ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "3ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "4ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" }   
+        ]
+      }
+    ]
+  },
+{
+    "id": "josequeirozeja",
+    "nome": "UNIDADE ESCOLAR JOSÉ QUEIROZ - EJA NOTURNO",
+    "inep": "21175519",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CENTRO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "noturno",
+        "nome": "Turno Noturno (Noite)",
+        "icone": "moon",
+        "corIcone": "text-indigo-500",
+        "turmas": [
+          { "nome": "1ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "2ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "3ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "4ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" }   
+        ]
+      }
+    ]
+  },
+{
+    "id": "unidadeprisional",
+    "nome": "UNIDADE PRISIONAL CAROLINA",
+    "inep": "21175519",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "ALTO DA COLINA",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "1ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "2ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "3ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" },
+          { "nome": "4ª Etapa EJA", "etapa": "Educação de Jovens e Adultos", "link": "" }   
+        ]
+      }
+    ]
+  },
+{
+    "id": "americoaires",
+    "nome": "UNIDADE MAIS INTEGRAL AMERICO AIRES",
+    "inep": "21175594",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CENTRO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "integral",
+        "nome": "Turno Integral",
+        "icone": "clock",
+        "corIcone": "text-esmerald-500",
+        "turmas": [
+          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano", "etapa": "Anos Finais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "odolfoairesmedeiros",
+    "nome": "UNIDADE MAIS INTEGRAL ODOLFO AIRES MEDEIROS",
+    "inep": "21175616",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "CENTRO",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "integral",
+        "nome": "Turno Integral",
+        "icone": "clock",
+        "corIcone": "text-esmerald-500",
+        "turmas": [
+          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano", "etapa": "Anos Finais", "link": "" }
+        ]
+      }
+    ]
+  },
+{
+    "id": "irisbulgarelli",
+    "nome": "UNIDADE ESCOLAR ÍRIS BULGARELLI",
+    "inep": "21175330",
+    "zona": "RURAL",
+    "regiao": "ITAPECURU",
+    "localidade": "SANTA RITA",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": ""
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "7º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "8º Ano", "etapa": "Anos Finais", "link": "" },
+          { "nome": "9º Ano", "etapa": "Anos Finais", "link": "" }
+        ]
+      }
+    ]
+  }
+]
