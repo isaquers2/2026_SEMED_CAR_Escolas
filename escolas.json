@@ -903,7 +903,7 @@
     "cidadeEstado": "Carolina - Maranhão",
     "controleGestao": {
       "nome": "Controle Gestão",
-      "link": ""
+      "link": "https://docs.google.com/spreadsheets/d/1z3ofySvF7QEa996V6fKIrsVqt59Yc9vtR1g9CeOA7pE/edit?usp=drive_link"
     },
     "turnos": [
       {
@@ -912,10 +912,10 @@
         "icone": "clock",
         "corIcone": "text-esmerald-500",
         "turmas": [
-          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "" },
-          { "nome": "7º Ano", "etapa": "Anos Finais", "link": "" },
-          { "nome": "8º Ano", "etapa": "Anos Finais", "link": "" },
-          { "nome": "9º Ano", "etapa": "Anos Finais", "link": "" }
+          { "nome": "6º Ano", "etapa": "Anos Finais", "link": "https://docs.google.com/spreadsheets/d/18N8bGLb7Pbk2Ql0yihWQtaUyWLe2oWQ5JaYBCYXKzSs/edit?usp=drive_link" },
+          { "nome": "7º Ano", "etapa": "Anos Finais", "link": "https://docs.google.com/spreadsheets/d/1anAn4NX4tUGecGuJQrgLQkRonPAdnoi70fd5gvJMI5M/edit?usp=drive_link" },
+          { "nome": "8º Ano", "etapa": "Anos Finais", "link": "https://docs.google.com/spreadsheets/d/1PoZkAm5AWcxOM1B8jWkIESdvnMVTxn3NlR06Z_m0nYc/edit?usp=drive_link" },
+          { "nome": "9º Ano", "etapa": "Anos Finais", "link": "https://docs.google.com/spreadsheets/d/1CUec6ZomgewQ7oU9edAutfvrD7sI9TaMDlK1XqHRcjw/edit?usp=drive_link" }
         ]
       }
     ]
