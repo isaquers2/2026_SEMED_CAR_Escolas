@@ -946,5 +946,45 @@
         ]
       }
     ]
+  },
+[
+  {
+    "id": "nelsonmaranhao",
+    "nome": "UNIDADE ESCOLAR NELSON MARANHÃO",
+    "inep": "21175551",
+    "zona": "URBANA",
+    "regiao": "SEDE",
+    "localidade": "ALTO DA COLINA",
+    "cidadeEstado": "Carolina - Maranhão",
+    "controleGestao": {
+      "nome": "Controle Gestão",
+      "link": "https://docs.google.com/spreadsheets/d/1a4NnTjnMI7J8QZ0Gpgkx2huOkhC07sXENOqiVgEbMJw/edit?usp=drive_link"
+    },
+    "turnos": [
+      {
+        "id": "matutino",
+        "nome": "Turno Matutino (Manhã)",
+        "icone": "sun",
+        "corIcone": "text-amber-500",
+        "turmas": [
+          { "nome": "2º Ano", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/10mMB3W5ADxHsKIlNLAI-kA_kmTawAMkgE2rbkSes-yI/edit?usp=drive_link" },
+          { "nome": "3º Ano A", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1gdl6_pj7P6F_cg8e_ptxShzaGJpfA7c2ZiZ5LYCbzSo/edit?usp=drive_link" },
+          { "nome": "4º Ano A", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1b0AC0YpLdOu4et0ogXahFRGCR1Ny6DGljYoN2f-c6yg/edit?usp=drive_link" },
+          { "nome": "5º Ano A", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1Tg190S7Z0YWqLCPjlL7yHEkWXDSH-L9Xnuchrvj6fkQ/edit?usp=drive_link" }
+        ]
+      },
+      {
+        "id": "vespertino",
+        "nome": "Turno Vespertino (Tarde)",
+        "icone": "sunset",
+        "corIcone": "text-orange-500",
+        "turmas": [
+          { "nome": "1º Ano", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1QUTB6HCmaJk1fjQIFNpdf7Q-2cv5OWQZ-3Yqsiu24w8/edit?usp=drive_link" },
+          { "nome": "3º Ano B", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/18di6YRqHIyhLZ3Fc0wTcsdYxJgU_QPxUWKyJg2C8oyg/edit?usp=drive_link" },
+          { "nome": "4º Ano B", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1YBFzXs9Q6D5msUQbj2FkwYPszBT3scT6q9vZaA9bRKI/edit?usp=drive_link" },
+          { "nome": "5º Ano B", "etapa": "Anos Iniciais", "link": "https://docs.google.com/spreadsheets/d/1EBp_5J1S5sQeJ1vR9rGpqd1W61XtNUj5Q-6dcuO_y3A/edit?usp=drive_link" }
+        ]
+      }
+    ]
   }
 ]
